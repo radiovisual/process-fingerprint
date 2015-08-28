@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/radiovisual/process-fingerprint.svg)](https://travis-ci.org/radiovisual/process-fingerprint)
 
 ## Installation
-```js
+```sh
 $ npm install --save process-fingerprint
 ```
 
