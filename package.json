@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/radiovisual/process-fingerprint/issues"
   },
-  "homepage": "https://github.com/radiovisual/process-fingerprint#readme"
+  "homepage": "https://github.com/radiovisual/process-fingerprint#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
