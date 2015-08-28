@@ -1,0 +1,26 @@
+{
+  "name": "process-fingerprint",
+  "version": "0.0.1",
+  "description": "Create a fingerprint value that is exposed to your user environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiovisual/process-fingerprint.git"
+  },
+  "keywords": [
+    "fingerprint",
+    "process",
+    "global",
+    "cache",
+    "busting"
+  ],
+  "author": "Michael Wuergler <senjudev@gmail.com> (http://numetriclabs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radiovisual/process-fingerprint/issues"
+  },
+  "homepage": "https://github.com/radiovisual/process-fingerprint#readme"
+}

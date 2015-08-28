@@ -2,6 +2,8 @@
 
 > Create a fingerprint value that is exposed to your user environment
 
+[![Build Status](https://travis-ci.org/radiovisual/process-fingerprint.svg)](https://travis-ci.org/radiovisual/process-fingerprint)
+
 ## Installation
 ```js
 $ npm install --save process-fingerprint
