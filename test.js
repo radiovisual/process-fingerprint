@@ -13,6 +13,13 @@ describe("process-fingerprint", function(){
         done();
     });
 
+    it('should return the fingerprint if already set on `process.env`', function(done){
+        process.env[key] = 'ABC123';
+        var fp = fingerprint();
+        assert.equal(fp, 'ABC123');
+        done();
+    });
+
     it('should return a fingerprint value', function(done){
         assert(fingerprint());
         assert.equal(fingerprint().substring(0,3), "_pf");
@@ -28,7 +35,7 @@ describe("process-fingerprint", function(){
         done();
     });
 
-    after(function(){
+    afterEach(function(){
         delete process.env[key];
     });
 
