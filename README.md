@@ -5,11 +5,13 @@
 [![Build Status](https://travis-ci.org/radiovisual/process-fingerprint.svg)](https://travis-ci.org/radiovisual/process-fingerprint)
 
 ## Installation
+
 ```
 $ npm install --save process-fingerprint
 ```
 
 ## Usage
+
 ```js
 var fingerprint = require('process-fingerprint');
 
@@ -29,10 +31,9 @@ namespace, where the metalsmith and gulp build process could share the same fing
 
 I am sure there is a better way to create a fingerprint variable, perhaps I shouldn't be using the `process.env`
 object for my own silly experiments, but for now, this approach will solve the problem of making a global
-fingerprint across multiple build processes. *I will use this module with caution until my experiments lead me
-to believe that this is a worthwhile fingerprinting method.*
+fingerprint across multiple build processes.
 
-**Please [open an issue](https://github.com/radiovisual/process-fingerprint/issues) to start a discussion, share your thoughts or offer suggestions**
+**If you know of a better way, please [open an issue](https://github.com/radiovisual/process-fingerprint/issues) to start a discussion or share your thoughts**
 
 ## License
 
